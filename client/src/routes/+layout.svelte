@@ -8,10 +8,10 @@
 			SkitBase
 		</a>
 		<div class="flex">
-			<a class="flex items-center h-full px-4" href="/">
+			<a class="flex items-center h-full px-4" href="/login">
 				Login
 			</a>
-			<a class="flex items-center h-full px-4" href="/">
+			<a class="flex items-center h-full px-4" href="/register">
 				Register
 			</a>
 		</div>
