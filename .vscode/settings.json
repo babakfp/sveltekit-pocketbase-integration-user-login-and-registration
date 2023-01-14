@@ -1,0 +1,6 @@
+{
+	"search.exclude": {
+		"/server/*": true,
+		"**/pnpm-lock.yaml": true
+	}
+}
