@@ -1,0 +1,6 @@
+<form class="grid gap-4" method="POST">
+	<input class="w-full h-14 px-4 bg-gray-100 rounded" type="email" name="email" id="email" placeholder="Email" />
+	<input class="w-full h-14 px-4 bg-gray-100 rounded" type="password" name="password" id="password" placeholder="Password" />
+	<input class="w-full h-14 px-4 bg-gray-100 rounded" type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Password (Repeat)" />
+	<button class="h-16 bg-gray-900 rounded text-white">Register</button>
+</form>
