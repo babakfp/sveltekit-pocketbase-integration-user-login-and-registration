@@ -1,5 +1,6 @@
 <script>
   import "../app.postcss"
+  import { currentUser } from '$lib/pocketbase'
 </script>
 
 <header class="border-b border-gray-100">
@@ -8,12 +9,18 @@
 			SkitBase
 		</a>
 		<div class="flex">
-			<a class="flex items-center h-full px-4" href="/login">
-				Login
-			</a>
-			<a class="flex items-center h-full px-4" href="/register">
-				Register
-			</a>
+			{#if $currentUser}
+				<a class="flex items-center h-full px-4" href="/logout">
+					Logout
+				</a>
+			{:else}
+				<a class="flex items-center h-full px-4" href="/login">
+					Login
+				</a>
+				<a class="flex items-center h-full px-4" href="/register">
+					Register
+				</a>
+			{/if}
 		</div>
 	</div>
 </header>
