@@ -5,7 +5,7 @@
 </script>
 
 <header class="border-b border-gray-100">
-	<div class="container flex justify-between h-20">
+	<div class="container px-0 flex justify-between h-20">
 		<a class="flex items-center h-full px-4 hover:bg-slate-100" href="/">Home</a>
 		<div class="flex">
 			{#if $currentUser}
